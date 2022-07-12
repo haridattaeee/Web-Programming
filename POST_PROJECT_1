@@ -1,0 +1,214 @@
+POST LINK
+    
+    https://www.figma.com/file/2a51n9kubXRIFs5jlNEi4V/Blog-Post-(Project-1)?node-id=0%3A1
+    
+    
+HTML CODE
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My FRIST WEB PAGE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        HTML & CSS Basics
+    </header>
+    <article>
+        <section ID="TITLE-SECTION">
+            <div class="POST-AUTHORS"> by Ivan Lourenço Gomes | 5 min read</div>
+            <h1>
+                Getting started with HTML & CSS
+            </H1>
+            <span CLASS="SHARE-POST UPPERCASE"> SHARE THIS POST </span>
+            <img src="front-end images/Facebook_Icon.png">
+            <img src="front-end images/Linkedin_Icon.png">
+
+        </section>
+        <section class="HERO-IMG">
+            <img src="front-end images/front-end-developer.png">
+        </section>
+
+        <section id="CONTANT-SIZE">
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec magna nunc, pretium in hendrerit ut, fermentum eu mauris.
+                Sed venenatis sapien magna, nec sodales odio porttitor.
+            
+                Curae; Integer aliquam ligula ac odio placerat, eget auctor urna consequat. 
+                Nullam aliquet sapien nec nibh mattis consequat.  <a href = "https://www.google.com"> Click here</a> Pellentesque viverra vulputate eleifend. 
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+            
+            </P>
+            
+        
+            <H2 class="UPPERCASE">
+               <! NULLAM ULTRICIES VIVERRA>
+                nullam ultricies vivera
+            </H2>
+           
+            <P>
+            Curae; Integer aliquam ligula ac odio placerat, eget auctor urna consequat.
+            Nullam aliquet sapien nec nibh mattis consequat. Pellentesque viverra vulputate eleifend. 
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.
+            </P>
+            <ol>
+                <li> Mauris sem, ut sed </li>
+                <li> Donec magna nunc </li>
+                <li> Placerat eget auctor</li>
+        
+            </ol>
+            <p>
+                Nam ultrices ex fringilla ex pharetra finibus. Vestibulum non vestibulum augue. 
+                Mauris finibus ex eget erat pretium, mattis tristique est gravida. 
+                Aenean non sapien sed purus blandit dignissim lacinia id leo. Sed vel orci euismod, accumsan nibh sit amet, suscipit elit. 
+                Maecenas dictum fermentum mauris in convallis.
+            </p>
+            
+            
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-_X6PhkjpzU" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            <!
+            <video controls>
+                <source src="VID-20220531-WA0013.mp4" type="video/mp4">
+            </video>
+    
+        </article>
+        
+        </section>
+       
+     <footer>
+       
+            <h3>
+                RELATED POSTS
+            </h3>
+
+        
+            <ul>
+                <div CLASS="LINKS-TITLE UPPERCASE"></div>
+                <li> <a href = "https://www.google.com">The 3 Most Popular Javascript Frameworks</a> </li>
+                <li> <a href = "https://www.google.com"> Best Front End development blogs</a> </li>
+                <li> <a href = "https://www.google.com"> New HTML5 Elements Explained</a> </li>
+            </ul>
+
+        
+        
+
+     </footer>   
+    
+</body>
+</html>
+
+
+CSS CODE
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #2E94CC;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+}
+article{
+    BACKGROUND-COLOR: WHITE;
+    MAX-WIDTH: 850PX;
+    MARGIN: AUTO;
+}
+section{
+    MARGIN-TOP: 50PX;
+}
+.POST-AUTHORS{
+    color: #6C6C6C;
+    font-size: 20px;
+    line-height: 18px;
+}
+.SHARE-POST, 
+.LINKS-TITLE{
+    color: #000000;
+    font-size: 12px;
+line-height: 22px;
+text-transform: uppercase;
+}
+.SHARE-POST span{
+    margin-right:4px ;
+
+}
+.SHARE-POST img{
+    vertical-align: middle;
+    
+}
+.LINKS-TITLE{
+    margin-bottom: 12PX;
+}
+
+.UPPERCASE{
+    text-transform: uppercase;
+}
+H1{
+    margin: 0;
+    margin-bottom: ;10px
+    font-weight: 400;
+    
+font-size: 52px;
+line-height: 58px;
+}
+article p{
+    font-size: 16px;
+line-height: 24px;
+}
+#TITLE-SECTION{
+    margin-bottom:50PX;
+}
+.HERO-IMG{
+    margin: 50PX 0;
+}
+.HERO-IMG img{
+    max-width: 100%;
+}
+#CONTANT-SIZE{
+    MAX-WIDTH: 650PX;
+    MARGIN: AUTO;
+
+}
+iframe{
+    margin: 50px 0;
+}
+
+footer{
+    background-color:rgb(222, 218, 218) ;
+    MAX-WIDTH: 650PX;
+    
+    MARGIN: AUTO;
+    padding: 10px 15px;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    margin-bottom: 12px;
+}
+footer{
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 20px;
+}
+FOOTER U1 LI:LAST-OF-TYPE{
+    margin-bottom: 0;
+}
